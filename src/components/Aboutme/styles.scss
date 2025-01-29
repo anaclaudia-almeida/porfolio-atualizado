@@ -1,0 +1,48 @@
+$primary-bg: #1f2020;
+$primary-text: #ffffff;
+
+.about-me {
+  background: $primary-bg;
+}
+
+.container-images-about-me {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 110px;
+  gap: 50px;
+
+  & img {
+    width: 400px;
+  }
+}
+
+.container-skills-about-me {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  & .title-about-me {
+    color: $primary-text;
+    font-size: 50px;
+
+    &::after {
+      content: "";
+      margin-top: 10px;
+      display: block;
+      width: 100px;
+      height: 1px;
+      background: #ffffff;
+    }
+  }
+}
+
+.soft-skills-about-me,
+.hard-skills-about-me {
+  & li {
+    color: $primary-text;
+    list-style-type: circle ;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+  }
+}

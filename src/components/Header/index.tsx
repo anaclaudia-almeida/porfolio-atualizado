@@ -1,10 +1,9 @@
 import React from "react";
 import "../Header/styles.scss";
 
-
 const navItems = [
   { label: "Home", link: "/" },
-  { label: "Sobre Mim", link: "#sobre" },
+  { label: "Sobre Mim", link: "/sobre-mim" },
   { label: "Meus Projetos", link: "#projetos" },
   { label: "Contato", link: "#contato" },
 ];
