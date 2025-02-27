@@ -13,12 +13,13 @@ const AboutMe: React.FC = () => {
         <img src={Image03} alt="Imagem Computador Escurecido" />
       </div>
       <div className="container-skills-about-me">
-        <h1 className="title-about-me">Sobre Mim.</h1>
+        <h1 className="title-about-me">quem sou eu.</h1>
         <ul className="soft-skills-about-me">
-          <li className="item-soft-skills">Organização</li>
-          <li className="item-soft-skills">Trabalho em equipe</li>
-          <li className="item-soft-skills">Proatividade</li>
-          <li className="item-soft-skills">Capacidade de aprendizagem</li>
+          <li className="item-soft-skills">soft skills</li>
+          <li className="item-soft-skills">organização</li>
+          <li className="item-soft-skills">trabalho em equipe</li>
+          <li className="item-soft-skills">proatividade</li>
+          <li className="item-soft-skills">capacidade de aprendizagem</li>
         </ul>
         <ul className="hard-skills-about-me">
           <li className="item-hard-skills">HTML5</li>

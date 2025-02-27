@@ -3,10 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 import "../Header/styles.scss";
 
 const navItems = [
-  { label: "Home", link: "/home" },
-  { label: "Sobre Mim", link: "/sobre-mim" },
-  { label: "Meus Projetos", link: "/projetos" },
-  { label: "Contato", link: "/contato" },
+  { label: "home", link: "/home" },
+  { label: "sobre mim", link: "/sobre-mim" },
+  { label: "meus projetos", link: "/meus-projetos" },
+  { label: "contato", link: "/contato" },
 ];
 
 const Header: React.FC = () => {
@@ -15,7 +15,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="container-header">
-        <span className="welcome-text">Olá, seja bem-vindo(a) ao meu portfólio</span>
+        <span className="welcome-text">Olá, seja bem-vindo(a)</span>
         <nav>
           <ul className="nav-header">
             {navItems.map((item, index) => (

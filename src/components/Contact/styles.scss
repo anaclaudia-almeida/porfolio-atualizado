@@ -1,0 +1,45 @@
+.contact-me {
+  background: #1f2020;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.title-container-contact {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.image-profile-contact {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.container-contact ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.container-contact li {
+  color: white;
+  font-size: 12px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.container-contact li img {
+  margin-right: 10px; 
+  cursor: pointer;
+}
+
+.icon-contact {
+  width: 30px;
+}
